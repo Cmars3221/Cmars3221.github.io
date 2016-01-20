@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Christopher Mars</title>
+    
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
+
+	<link href="assets/css/get-shit-done.css" rel="stylesheet" />  
+    <link href="assets/css/demo.css" rel="stylesheet" /> 
+    
+    <!--     Font Awesome     -->
+    <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<body>
+
+  <div id="navbar-full">
+    <div id="navbar">
+    <!--    
+        navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
+        -->
+        <nav class="navbar navbar-ct-red2 navbar-transparent navbar-fixed-top" role="navigation">
+          <div class="alert alert-success hidden">
+            <div class="container">
+<!-- Thanks! Your mail has been sent!!! -->
+            </div>
+          </div>
+          
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Christohper Mars</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#about">About </a></li>
+                <li><a href="#contactMe">Contact</a></li>
+               
+                <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#ventr">Ventr</a></li>
+                    
+                        <li><a href="#flappy">Flappy Little</a></li>
+                        <li><a href="#">Distillery</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#contactMe">Contact</a></li>
+                      </ul>
+                </li>               
+               <!--  <li>
+                    <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                </li> -->
+              </ul>
+
+               <form class="navbar-form navbar-left navbar-search-form" role="search">                  
+                 <div class="form-group">
+                      <input type="text" value="" class="form-control" placeholder="Search...">
+                 </div> 
+              </form>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+     <div class="blurred-container">
+            <div class="img-src" style="background-image: url('assets/img/ny1.png')"></div>
+        </div>
+    </div><!--  end navbar -->
+
+</div> <!-- end menu-dropdown -->
+
+
+<!---test main-->
+
+<div class="main" id="about">
+    <div class="container tim-container" style="max-width:800px; padding-top:60px; background-color:black; color:white">
+       <h1 class="text-center">Web Devleloper <br>
+
+        <br></h1>
+       <p> Welcome to my page...
+        Full Stack web developer and IT professional with a passion for cool, intuitive user expriences and web applications that make a difference. When I'm not coding, I'm spending time Traveling to unknown lands with my cat and catching up on the latest cultural trends. I currently reside in New York City! <br><br>
+
+        Languages I've worked with:
+         <hr>
+         JavaScript, Jquery, HTML, CSS, Sass, Boostrap, Ruby, Ruby on Rails, Sinatra. <br><br> Version Control and Testing: Git.  <br> <br>Currently digging into: Node, Mongo DB Angular, and ReactJs...can't wait to make some exciting stuff with that!<br> <br> 
+    </div>
+    <br>
+    <br>
+    <br>
+
+ 
+    <div class="space"><h4 class="text-center" style="color:white; padding-top:30px;"> Projects</h4>
+      <br>
+      <br>
+
+    </div>
+<!-- end container -->
+
+</div>
+<!-- end main -->
+
+<!--Project Carousel-->
+<div id="carousel">
+    <!--    
+            IMPORTANT - This carousel can have a special class for a smooth transition "gsdk-transition". Since javascript cannot be overwritten, if you want to use it, you can use the bootstrap.js or bootstrap.min.js from the GSDKit or you can open your bootstrap.js file, search for "emulateTransitionEnd(600)" and change it with "emulateTransitionEnd(1200)"     
+            
+    -->
+    <div id="carousel-example-generic" class="carousel slide gsdk-transition" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img  id="ventr" src="assets/img/ventr.png" alt="Awesome Image">
+<!--           <div><p>Ruby|Rails|Bootstrap|</p></div>
+ -->      </div>
+       <div class="item">
+         <img src="assets/img/flappylittle.png" alt="Awesome Image">
+<!--           <p>JavaScript,Jquery,Node</p>
+ -->       </div>
+        <div class="item">
+          <img id="flappy" src="assets/img/tiles.jpg" alt="Awesome Image">
+        </div>  
+      </div>
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="fa fa-angle-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="fa fa-angle-right"></span>
+      </a>
+    </div>
+</div> 
+
+<div class="main" id="contactMe">
+    <div class="container tim-container" style="max-width:800px; padding-top:70px; background-color:black; color:white">
+
+       <h2 class="text-center">Contact Me:</h2>
+       <br>
+       <br>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2" id="contact-font text-right">
+         Graduate of Brooklyn College (2009)
+           <br><br><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger" href="assets/img/Christopher_Mars_Resume.pdf">Resume</a>
+        </div>
+
+        <div class="col-md-4 col-md-offset-1" id="contact-font text-right">
+          <a href="mailto:Cmars3221@yahoo.com?Subject=Hi Chris,%20I%20saw%20your%20profile...">*Email Me*</a>
+         <br><br>
+          Github: <a href="https://github.com/Cmars3221" target="0">https://github.com/Cmars3221</a>
+          <br><br>
+          LinkedIn: <a href="https://www.linkedin.com/in/christopher-mars-38483230" target="0">Profile</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+       </div>
+      </div>
+     
+    <!--footer-->
+
+  <div class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+      <p class="navbar-text pull-left">&copy; 2015 Christopher Mars</p>
+
+      <p style="color:rgba(41, 128, 0, 0.42);"class="pull-right">2016</p>
+    </div>
+  </div>
+
+</body>
+
+    <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+	<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+	<script src="assets/js/gsdk-checkbox.js"></script>
+	<script src="assets/js/gsdk-radio.js"></script>
+	<script src="assets/js/gsdk-bootstrapswitch.js"></script>
+  <script src="assets/js/get-shit-done.js"></script>
+	
+    <script src="assets/js/custom.js"></script>
+</html>
