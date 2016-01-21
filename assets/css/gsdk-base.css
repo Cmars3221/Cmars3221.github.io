@@ -417,10 +417,10 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     
 }
 .navbar .navbar-brand {
-    font-weight: 600;
+    font-weight: 400;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 23px;
 }
 .navbar-nav > li > a {
     margin-top: 13px;
